@@ -1,0 +1,40 @@
+.modal {
+    padding: 1em;
+    max-width: 50ch;
+    border: 0;
+    box-shadow: 0 0 1em rgb(0 0 0 / 0.3);
+
+    & > * {
+        margin: 0 0 0.5rem 0;
+    }
+}
+
+.plus {
+    width: auto;
+    height: 20px;
+}
+
+.task {
+    background-color: red;
+    display: flex;
+    padding: 2px;
+}
+
+.add-task:hover {
+    cursor: pointer;
+    background-color: rgb(226, 226, 226);
+}
+
+.add-task {
+    width: 500px;
+    display: flex;
+    align-items: center;
+    border: none;
+    background-color: white;
+    border-radius: 5px;
+    padding: 10px 10px;
+}
+
+.plus {
+    margin-right: 5px;
+}
